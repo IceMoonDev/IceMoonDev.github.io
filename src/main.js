@@ -243,7 +243,7 @@ function addArtwork(
 
 // Ajoute tes œuvres ici, tu pourras ajuster les coordonnées à tâtons.
 addArtwork(
-  "Portfolio.jpg",
+  "Portfolio.png",
   "Amaury Compin",
   "Première Année Game Bachelor E-Artsup Toulouse",
   -6.31,
@@ -260,7 +260,7 @@ addArtwork(
   -2.86,
   1.57,
 );
-addArtwork("Sommaire.jpg", " ", " ", -0.21, 2.4, -12.51, 0.0);
+addArtwork("Sommaire.png", " ", " ", -0.21, 2.4, -12.51, 0.0);
 
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
 const velocity = new THREE.Vector3();
