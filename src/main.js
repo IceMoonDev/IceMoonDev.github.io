@@ -243,15 +243,6 @@ function addArtwork(
 
 // Ajoute tes œuvres ici, tu pourras ajuster les coordonnées à tâtons.
 addArtwork(
-  "https://picsum.photos/id/1025/600/500",
-  "Amaury Compin",
-  "Exposition.",
-  0,
-  2,
-  -10,
-  0,
-);
-addArtwork(
   "Telephone.jpg",
   "Titre",
   "Description...",
