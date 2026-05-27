@@ -243,23 +243,24 @@ function addArtwork(
 
 // Ajoute tes œuvres ici, tu pourras ajuster les coordonnées à tâtons.
 addArtwork(
-  "Telephone.jpg",
-  "Titre",
-  "Description...",
-  6.28,
-  1.96,
-  -2.67,
-  -1.57,
+  "Portfolio.jpg",
+  "Amaury Compin",
+  "Première Année Game Bachelor E-Artsup Toulouse",
+  -6.31,
+  2.19,
+  3.07,
+  1.57,
 );
 addArtwork(
-  "PanoramaV2.png",
-  "Panorama",
-  "Utilisation de minimum 17 plans pour le contexte du devoir",
+  "Edito",
+  "Edito",
+  "Imaginer. Structurer. Coder. Jouer. Passionné par la technique, la logique des systèmes et la culture visuelle, j'aime explorer les frontières de l'interactivité. Du premier prototype brut au peaufinage minutieux du game feel, chaque projet est un défi : rendre l'expérience fluide, intuitive et surtout, mémorable. Ce portfolio rassemble mes prototypes, mes expérimentations techniques et mes univers. Entrez, testez, et parlons de ce qu'on peut créer ensemble !",
   -6.31,
   2.01,
   -2.86,
   1.57,
 );
+addArtwork("Sommaire.jpg", " ", " ", -0.21, 2.4, -12.51, 0.0);
 
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
 const velocity = new THREE.Vector3();
