@@ -255,7 +255,14 @@ addArtwork("Edito.png", " ", " ", -6.31, 2.01, -2.86, 1.57);
 addArtwork("Sommaire.png", " ", " ", -0.21, 2.4, -12.51, 0.0);
 addArtwork("Quisuisje.png", " ", " ", 6.28, 2.22, -3.9, -1.57);
 addArtwork("Contact.png", " ", " ", 1.94, 2.21, 10.48, -1.57);
-
+addArtwork("Titre.png", " ", " ", 17.0, 2.45, -7.33, 0.0);
+addArtwork("Danslecadre.png", " ", " ", 29.93, 2.36, -4.13, -1.57);
+addArtwork("Contexte.png", " ", " ", 29.93, 2.38, 0.02, -1.57);
+addArtwork("Contraintesthematiques.png", " ", " ", 29.93, 2.32, 4.15, -1.57);
+addArtwork("Triostellarium.png", " ", " ", 24.36, 2.42, 7.43, 0.0);
+addArtwork("Jaune.png", " ", " ", 18.41, 2.37, 4.01, 1.57);
+addArtwork("Rouge.png", " ", " ", 18.41, 2.25, 0.18, 1.57);
+addArtwork("Violet.png", " ", " ", 18.41, 2.21, -4.02, 1.57);
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
 const velocity = new THREE.Vector3();
 const direction = new THREE.Vector3();
