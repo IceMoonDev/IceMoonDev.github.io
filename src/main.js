@@ -263,7 +263,7 @@ addArtwork("Titre-1_1.png", " ", " ", 29.93, 2.17, -6.43, -1.57);
 addArtwork("Danslecadre.png", " ", " ", 29.93, 2.36, -4.13, -1.57);
 addArtwork("Contexte.png", " ", " ", 29.93, 2.38, 0.02, -1.57);
 addArtwork("Contraintesthematiques.png", " ", " ", 29.93, 2.32, 4.15, -1.57);
-addArtwork("Triostellarium-back_2.png", " ", " ", 22.82, 1.96, -11.51, 3.14);
+addArtwork("Triostellarium-back_2.png", " ", " ", 24.35, 2.36, 7.43, 0.0);
 addArtwork("Jaune.png", " ", " ", 18.41, 2.37, 4.01, 1.57);
 addArtwork("Rouge.png", " ", " ", 18.41, 2.25, 0.18, 1.57);
 addArtwork("Violet.png", " ", " ", 18.41, 2.21, -4.02, 1.57);
