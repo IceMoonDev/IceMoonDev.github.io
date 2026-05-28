@@ -251,16 +251,10 @@ addArtwork(
   3.07,
   1.57,
 );
-addArtwork(
-  "Edito",
-  "Edito",
-  "Imaginer. Structurer. Coder. Jouer. Passionné par la technique, la logique des systèmes et la culture visuelle, j'aime explorer les frontières de l'interactivité. Du premier prototype brut au peaufinage minutieux du game feel, chaque projet est un défi : rendre l'expérience fluide, intuitive et surtout, mémorable. Ce portfolio rassemble mes prototypes, mes expérimentations techniques et mes univers. Entrez, testez, et parlons de ce qu'on peut créer ensemble !",
-  -6.31,
-  2.01,
-  -2.86,
-  1.57,
-);
+addArtwork("Edito.png", " ", " ", -6.31, 2.01, -2.86, 1.57);
 addArtwork("Sommaire.png", " ", " ", -0.21, 2.4, -12.51, 0.0);
+addArtwork("Quisuisje.png", " ", " ", 6.28, 2.22, -3.9, -1.57);
+addArtwork("Contact.png", " ", " ", 1.94, 2.21, 10.48, -1.57);
 
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
 const velocity = new THREE.Vector3();
