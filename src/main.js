@@ -165,7 +165,7 @@ function addArtwork(
   const group = new THREE.Group();
 
   // 1. Chargement de la texture avec gestion intelligente du sens de l'image
-  const picMat = new THREE.MeshPhongMaterial({ color: 0xffffff });
+  const picMat = new THREE.MeshBasicMaterial({ color: 0xffffff });
 
   textureLoader.load(imagePath, function (texture) {
     const imgWidth = texture.image.width;
