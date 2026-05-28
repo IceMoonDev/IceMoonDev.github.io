@@ -164,44 +164,74 @@ function addArtwork(
 ) {
   const group = new THREE.Group();
 
-  // 1. Chargement de la texture avec gestion intelligente du sens de l'image
+  // 1. Matériau de l'image (Double-face activé par défaut)
   const picMat = new THREE.MeshPhongMaterial({
     color: 0xffffff,
     side: THREE.DoubleSide,
   });
 
-  textureLoader.load(imagePath, function (texture) {
-    const imgWidth = texture.image.width;
-    const imgHeight = texture.image.height;
-    const aspectRatio = imgWidth / imgHeight;
+  textureLoader.load(
+    imagePath,
+    function (texture) {
+      // Sécurité si l'accès aux dimensions brutes de l'image saute
+      const imgWidth = texture.image ? texture.image.width : 0;
+      const imgHeight = texture.image ? texture.image.height : 0;
 
-    let finalWidth, finalHeight;
+      // Si l'image a un problème de lecture, on applique un ratio de 1 (carré)
+      let aspectRatio = 1;
+      if (imgWidth > 0 && imgHeight > 0) {
+        aspectRatio = imgWidth / imgHeight;
+      }
 
-    if (aspectRatio >= 1) {
-      // --- IMAGE HORIZONTALE OU CARRÉE ---
-      // On se base sur la largeur cible (ex: 3m de large)
-      finalWidth = targetWidth;
-      finalHeight = targetWidth / aspectRatio;
-    } else {
-      // --- IMAGE VERTICALE (PORTRAIT) ---
-      // On bride la HAUTEUR avec la valeur cible pour éviter qu'elle soit immense
-      finalHeight = targetWidth;
-      finalWidth = targetWidth * aspectRatio;
-    }
+      let finalWidth = targetWidth;
+      let finalHeight = targetWidth;
 
-    // Création de la géométrie aux proportions parfaites et maîtrisées
-    const picGeo = new THREE.PlaneGeometry(finalWidth, finalHeight);
+      // Gestion de l'orientation pour éviter les déformations immenses
+      if (aspectRatio >= 1) {
+        finalWidth = targetWidth;
+        finalHeight = targetWidth / aspectRatio;
+      } else {
+        finalHeight = targetWidth;
+        finalWidth = targetWidth * aspectRatio;
+      }
 
-    picMat.map = texture;
-    picMat.needsUpdate = true;
+      // Sécurité absolue anti-NaN et anti-Infinity
+      if (isNaN(finalWidth) || !isFinite(finalWidth)) finalWidth = 3;
+      if (isNaN(finalHeight) || !isFinite(finalHeight)) finalHeight = 3;
 
-    const painting = new THREE.Mesh(picGeo, picMat);
-    painting.position.set(0, 0, 0.02); // Décollé du mur
-    group.add(painting);
+      // --- LE CADRE DE SÉCURITÉ VISUEL ---
+      // On crée une fine boîte en 3D légèrement plus grande que l'image.
+      // Si la texture bugue, tu verras au moins ce cadre sombre sur le mur !
+      const frameGeo = new THREE.BoxGeometry(
+        finalWidth + 0.1,
+        finalHeight + 0.1,
+        0.05,
+      );
+      const frameMat = new THREE.MeshPhongMaterial({ color: 0x1a1a1a });
+      const frameMesh = new THREE.Mesh(frameGeo, frameMat);
+      frameMesh.position.set(0, 0, 0.01); // Plaqué au fond du groupe
+      group.add(frameMesh);
 
-    // Ajustement dynamique du texte pour qu'il reste toujours bien calé à droite du cadre
-    textMesh.position.set(finalWidth / 2 + 1.2, -0.2, 0.02);
-  });
+      // Création du Mesh de l'image
+      const picGeo = new THREE.PlaneGeometry(finalWidth, finalHeight);
+      picMat.map = texture;
+      picMat.needsUpdate = true;
+
+      const painting = new THREE.Mesh(picGeo, picMat);
+      painting.position.set(0, 0, 0.04); // Placé juste devant son cadre pour éviter le Z-fighting
+      group.add(painting);
+
+      // Ajustement dynamique du texte explicatif à droite de l'œuvre
+      textMesh.position.set(finalWidth / 2 + 1.2, -0.2, 0.02);
+    },
+    undefined,
+    function (err) {
+      console.error(
+        "Erreur critique lors du chargement de la texture : " + imagePath,
+        err,
+      );
+    },
+  );
 
   // 2. Le Texte explicatif (Généré via un Canvas HTML)
   const canvas = document.createElement("canvas");
