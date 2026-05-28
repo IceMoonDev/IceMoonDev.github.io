@@ -164,36 +164,39 @@ function addArtwork(
 ) {
   const group = new THREE.Group();
 
-  // 1. Chargement de la texture avec gestion du ratio d'aspect
-  const picMat = new THREE.MeshPhongMaterial({ color: 0xffffff }); // Matériau réactif à la lumière
+  // 1. Chargement de la texture avec gestion intelligente du sens de l'image
+  const picMat = new THREE.MeshPhongMaterial({ color: 0xffffff });
 
   textureLoader.load(imagePath, function (texture) {
-    // On récupère la taille d'origine de l'image
     const imgWidth = texture.image.width;
     const imgHeight = texture.image.height;
-
-    // Calcul du ratio d'aspect (ex: 16/9 = 1.77, 1/1 = 1)
     const aspectRatio = imgWidth / imgHeight;
 
-    // On fixe la largeur voulue (targetWidth) et on calcule la hauteur idéale
-    const finalWidth = targetWidth;
-    const finalHeight = targetWidth / aspectRatio;
+    let finalWidth, finalHeight;
 
-    // Création de la géométrie aux proportions parfaites
+    if (aspectRatio >= 1) {
+      // --- IMAGE HORIZONTALE OU CARRÉE ---
+      // On se base sur la largeur cible (ex: 3m de large)
+      finalWidth = targetWidth;
+      finalHeight = targetWidth / aspectRatio;
+    } else {
+      // --- IMAGE VERTICALE (PORTRAIT) ---
+      // On bride la HAUTEUR avec la valeur cible pour éviter qu'elle soit immense
+      finalHeight = targetWidth;
+      finalWidth = targetWidth * aspectRatio;
+    }
+
+    // Création de la géométrie aux proportions parfaites et maîtrisées
     const picGeo = new THREE.PlaneGeometry(finalWidth, finalHeight);
 
-    // Application de la texture sur le matériau
     picMat.map = texture;
     picMat.needsUpdate = true;
 
-    // Création du Mesh final de l'œuvre
     const painting = new THREE.Mesh(picGeo, picMat);
     painting.position.set(0, 0, 0.02); // Décollé du mur
     group.add(painting);
 
-    // --- Déplacement dynamique du texte explicatif ---
-    // On ajuste la position du texte pour qu'il se place toujours à côté,
-    // peu importe la largeur finale du tableau
+    // Ajustement dynamique du texte pour qu'il reste toujours bien calé à droite du cadre
     textMesh.position.set(finalWidth / 2 + 1.2, -0.2, 0.02);
   });
 
@@ -204,13 +207,12 @@ function addArtwork(
   const ctx = canvas.getContext("2d");
 
   ctx.fillStyle = "rgba(0,0,0,0)";
-  ctx.fillRect(0, 0, canvas.width, canvas.height); // Fond transparent
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = "#222222";
   ctx.font = "bold 32px sans-serif";
   ctx.fillText(title, 20, 50);
   ctx.font = "20px sans-serif";
 
-  // Découpage du texte en lignes
   const words = description.split(" ");
   let line = "";
   const lines = [];
@@ -235,7 +237,6 @@ function addArtwork(
   const textMesh = new THREE.Mesh(textGeo, textMat);
   group.add(textMesh);
 
-  // Positionnement et rotation globale du groupe sur le mur
   group.position.set(x, y, z);
   group.rotation.y = rotationY;
   scene.add(group);
