@@ -165,7 +165,7 @@ function addArtwork(
   const group = new THREE.Group();
 
   // 1. Matériau de l'image (Double-face activé par défaut)
-  const picMat = new THREE.MeshPhongMaterial({
+  const picMat = new THREE.MeshBasicMaterial({
     color: 0xffffff,
     side: THREE.DoubleSide,
   });
