@@ -309,21 +309,13 @@ addArtwork("Menu1.png", " ", " ", 31.1, 2.1, -23.95, 1.57);
 addArtwork("Menu2.png", " ", " ", 37.35, 2.01, -15.45, 1.57);
 //
 addArtwork("Titre3.png", " ", " ", 31.62, 2.02, -18.07, 0.0);
-addArtwork("Contexte_aspirinthe.png", " ", " ", 19.85, 1.98, -20.62, 1.57);
+addArtwork("Contexte_aspirinthe.png", " ", " ", 19.85, 1.99, -20.17, 1.57);
 addArtwork("Objectif.png", " ", " ", 19.85, 2.1, -23.49, 1.57);
-addArtwork("Credits_aspirinthe.png", " ", " ", 19.85, 2.14, -26.48, 1.57);
+addArtwork("Credits_aspirinthe.png", " ", " ", 19.85, 2.03, -26.93, 1.57);
 addArtwork("Web_aspirinthe.png", " ", " ", 22.65, 2.14, -29.0, 0.0);
-addArtwork("Unity_aspi.png", " ", " ", 26.74, 2.09, -29.0, 3.14);
+addArtwork("Unity_aspi.png", " ", " ", 26.74, 2.09, -29.0, 0.0);
 addArtwork("Code.png", " ", " ", 30.48, 2.24, -26.37, -1.57);
-addArtwork(
-  "Image_IRL.jpg",
-  "Titre",
-  "Description...",
-  30.48,
-  2.13,
-  -22.34,
-  -1.57,
-);
+addArtwork("Image_IRL.jpg", " ", " ", 30.48, 2.13, -22.34, -1.57);
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
 const velocity = new THREE.Vector3();
 const direction = new THREE.Vector3();
