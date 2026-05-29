@@ -303,8 +303,8 @@ addArtwork("Lensbot.png", " ", " ", 40.38, 1.99, -8.27, 3.14);
 addArtwork("UX-UI.png", " ", " ", 43.71, 2.24, -12.67, -1.57);
 addArtwork("Credits_Lensbot.png", " ", " ", 43.71, 2.21, -19.64, -1.57);
 addArtwork("Camfull.png", " ", " ", 43.71, 2.11, -24.75, -1.57);
-addArtwork("Plinco.png", " ", " ", 40.16, 2.16, -28.99, -3.14);
-addArtwork("Maze.png", " ", " ", 34.95, 2.21, -28.99, -3.14);
+addArtwork("Plinco.png", " ", " ", 40.16, 2.16, -28.99, 0.0);
+addArtwork("Maze.png", " ", " ", 34.95, 2.21, -28.99, 0.0);
 addArtwork("Menu1.png", " ", " ", 31.1, 2.1, -23.95, 1.57);
 addArtwork("Menu2.png", " ", " ", 37.35, 2.01, -15.45, 1.57);
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
