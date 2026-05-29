@@ -50,3 +50,21 @@ Menu 1 :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 31.10, 2.10, -23.95, 1.57);
 Menu 2 :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 37.35, 2.01, -15.45, 1.57);
+
+## Aspirinthe
+Titre3 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 31.62, 2.02, -18.07, 0.00);
+Contexte_aspirinthe :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 19.85, 1.98, -20.62, 1.57);
+Objectif :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 19.85, 2.10, -23.49, 1.57);
+Credits_aspirinthe :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 19.85, 2.14, -26.48, 1.57);
+Web_aspirinthe :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 22.65, 2.14, -29.00, 0.00);
+Unity_aspi :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 26.74, 2.09, -29.00, 3.14);
+Code :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 30.48, 2.24, -26.37, -1.57);
+Image_IRL :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 30.48, 2.13, -22.34, -1.57);
