@@ -68,3 +68,19 @@ Code :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 30.48, 2.24, -26.37, -1.57);
 Image_IRL :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 30.48, 2.13, -22.34, -1.57);
+
+## Texturing 3D
+Titre4 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 16.94, 1.96, -18.11, 0.00);
+Painting3D :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 5.50, 1.99, -20.80, 1.57);
+Projet-3D :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 5.50, 1.99, -25.26, 1.57);
+Rust :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 8.10, 1.96, -29.23, 0.00);
+Pot1 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 12.73, 1.95, -29.23, 0.00);
+Pot2 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 15.92, 1.96, -26.59, -1.57);
+Pot3 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 15.92, 1.96, -22.01, -1.57);

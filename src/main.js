@@ -307,7 +307,7 @@ addArtwork("Plinco.png", " ", " ", 40.16, 2.16, -28.99, 0.0);
 addArtwork("Maze.png", " ", " ", 34.95, 2.21, -28.99, 0.0);
 addArtwork("Menu1.png", " ", " ", 31.1, 2.1, -23.95, 1.57);
 addArtwork("Menu2.png", " ", " ", 37.35, 2.01, -15.45, 1.57);
-//
+// Aspirinthe
 addArtwork("Titre3.png", " ", " ", 31.62, 2.02, -18.07, 0.0);
 addArtwork("Contexte_aspirinthe.png", " ", " ", 19.85, 1.99, -20.17, 1.57);
 addArtwork("Objectif.png", " ", " ", 19.85, 2.1, -23.49, 1.57);
@@ -316,6 +316,14 @@ addArtwork("Web_aspirinthe.png", " ", " ", 22.65, 2.14, -29.0, 0.0);
 addArtwork("Unity_aspi.png", " ", " ", 26.74, 2.09, -29.0, 0.0);
 addArtwork("Code.png", " ", " ", 30.48, 2.24, -26.37, -1.57);
 addArtwork("Image_IRL.jpg", " ", " ", 30.48, 2.13, -22.34, -1.57);
+// Texturing 3D
+addArtwork("Titre4.png", " ", " ", 16.94, 1.96, -18.11, 0.0);
+addArtwork("Painting3D.png", " ", " ", 5.5, 1.99, -20.8, 1.57);
+addArtwork("Projet-3D.png", " ", " ", 5.5, 1.99, -25.26, 1.57);
+addArtwork("Rust.png", " ", " ", 8.1, 1.96, -29.23, 0.0);
+addArtwork("Pot1.png", " ", " ", 12.73, 1.95, -29.23, 0.0);
+addArtwork("Pot2.png", " ", " ", 15.92, 1.96, -26.59, -1.57);
+addArtwork("Pot3.png", " ", " ", 15.92, 1.96, -22.01, -1.57);
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
 const velocity = new THREE.Vector3();
 const direction = new THREE.Vector3();
