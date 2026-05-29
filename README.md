@@ -100,3 +100,19 @@ DinoGame :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 1.30, 1.95, -25.41, -1.57);
 DinoCode :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 1.30, 1.90, -21.46, -1.57);
+
+## Garona
+Titre6 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -11.88, 2.08, -14.50, 1.57);
+PowerTrio :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -14.58, 2.12, -4.99, 1.26);
+Identitevisuelle :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -18.77, 2.13, -4.99, 2.77);
+Logo :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -22.25, 2.07, -7.41, 1.57);
+Pochettes :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -22.25, 2.06, -10.61, 1.57);
+BigGarona :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -19.66, 2.12, -13.52, -0.92);
+LivretCD :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -15.29, 2.07, -13.52, -1.57);
