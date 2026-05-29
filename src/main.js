@@ -334,12 +334,12 @@ addArtwork("DinoGame.png", " ", " ", 1.3, 1.95, -25.41, -1.57);
 addArtwork("DinoCode.png", " ", " ", 1.3, 1.9, -21.46, -1.57);
 // Garona
 addArtwork("Titre6.png", " ", " ", -11.88, 2.08, -14.5, 1.57);
-addArtwork("PowerTrio.png", " ", " ", -14.58, 2.12, -4.99, 1.26);
-addArtwork("Identitevisuelle.png", " ", " ", -18.77, 2.13, -4.99, 2.77);
+addArtwork("PowerTrio.png", " ", " ", -14.58, 2.12, -4.99, 3.14);
+addArtwork("Identitevisuelle.png", " ", " ", -18.77, 2.13, -4.99, 3.14);
 addArtwork("Logo.png", " ", " ", -22.25, 2.07, -7.41, 1.57);
 addArtwork("Pochettes.png", " ", " ", -22.25, 2.06, -10.61, 1.57);
-addArtwork("BigGarona.png", " ", " ", -19.66, 2.12, -13.52, -0.92);
-addArtwork("LivretCD.png", " ", " ", -15.29, 2.07, -13.52, -1.57);
+addArtwork("BigGarona.png", " ", " ", -19.66, 2.12, -13.52, 0.0);
+addArtwork("LivretCD.png", " ", " ", -15.29, 2.07, -13.52, 0.0);
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
 const velocity = new THREE.Vector3();
 const direction = new THREE.Vector3();
