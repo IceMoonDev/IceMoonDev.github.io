@@ -84,3 +84,19 @@ Pot2 :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 15.92, 1.96, -26.59, -1.57);
 Pot3 :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 15.92, 1.96, -22.01, -1.57);
+
+## Dino
+Titre5 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 2.32, 2.02, -18.07, 0.00);
+Stopmotion :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -8.04, 1.81, -20.30, 1.57);
+GDevelop :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -8.04, 1.82, -24.77, 1.57);
+Triple_dino :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -5.40, 2.06, -28.78, 0.00);
+StopDino :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -1.56, 2.04, -28.78, 3.14);
+DinoGame :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 1.30, 1.95, -25.41, -1.57);
+DinoCode :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 1.30, 1.90, -21.46, -1.57);
