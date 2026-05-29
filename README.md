@@ -30,3 +30,23 @@ Rouge :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 18.41, 2.25, 0.18, 1.57);
 Violet :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 18.41, 2.21, -4.02, 1.57);
+
+## Game Jam
+Titre :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 36.67, 1.85, -13.01, -1.57);
+Lensbot :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 40.38, 1.99, -8.27, -1.57);
+UX/UI :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 43.71, 2.24, -12.67, -1.57);
+Credits Lensbot :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 43.71, 2.21, -19.64, -1.57);
+Camfull :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 43.71, 2.11, -24.75, -1.57);
+Plinco :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 40.16, 2.16, -28.99, 1.57);
+Maze :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 34.95, 2.21, -28.99, 1.57);
+Menu 1 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 31.10, 2.10, -23.95, 1.57);
+Menu 2 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 37.35, 2.01, -15.45, 1.57);
