@@ -329,7 +329,7 @@ addArtwork("Titre5.png", " ", " ", 2.32, 2.02, -18.07, 0.0);
 addArtwork("Stopmotion.png", " ", " ", -8.04, 1.81, -20.3, 1.57);
 addArtwork("GDevelop.png", " ", " ", -8.04, 1.82, -24.77, 1.57);
 addArtwork("Triple_dino.png", " ", " ", -5.4, 2.06, -28.78, 0.0);
-addArtwork("StopDino.png", " ", " ", -1.56, 2.04, -28.78, 3.14);
+addArtwork("StopDino.png", " ", " ", -1.56, 2.04, -28.78, 0.0);
 addArtwork("DinoGame.png", " ", " ", 1.3, 1.95, -25.41, -1.57);
 addArtwork("DinoCode.png", " ", " ", 1.3, 1.9, -21.46, -1.57);
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
