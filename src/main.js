@@ -342,9 +342,9 @@ addArtwork("BigGarona.png", " ", " ", -19.66, 2.12, -13.52, 0.0);
 addArtwork("LivretCD.png", " ", " ", -15.29, 2.07, -13.52, 0.0);
 // Dessin numerique
 addArtwork("Titre7.png", " ", " ", -11.92, 2.19, -1.24, 1.57);
-addArtwork("Photoshop.png", " ", " ", -15.65, 2.06, -0.34, 0.0);
-addArtwork("Photoshop-Image.png", " ", " ", -18.75, 2.06, -0.34, 0.0);
-addArtwork("Rose.png", " ", " ", -23.29, 2.0, -0.34, 0.0);
+addArtwork("Photoshop.png", " ", " ", -14.37, 1.91, -0.34, 0.0);
+addArtwork("Photoshop-Image.png", " ", " ", -17.87, 1.88, -0.34, 0.0);
+addArtwork("Rose.png", " ", " ", -21.92, 1.88, -0.34, 0.0);
 addArtwork("Rose-Image.png", " ", " ", -25.22, 1.91, -0.34, 0.0);
 addArtwork("Hist-Nat.png", " ", " ", -27.75, 1.9, 3.42, 1.57);
 addArtwork("Hist-Nat-Image.png", " ", " ", -27.75, 1.87, 6.39, 1.57);
