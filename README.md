@@ -116,3 +116,27 @@ BigGarona :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', -19.66, 2.12, -13.52, -0.92);
 LivretCD :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', -15.29, 2.07, -13.52, -1.57);
+
+## Dessin numerique
+Titre7 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -11.92, 2.19, -1.24, 1.57);
+Photoshop :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -15.65, 2.06, -0.34, -1.57);
+Photoshop-Image :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -18.75, 2.06, -0.34, -1.57);
+Rose :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -23.29, 2.00, -0.34, -1.57);
+Rose-Image :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -25.22, 1.91, -0.34, -1.57);
+Hist-Nat :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -27.75, 1.90, 3.42, 1.57);
+Hist-Nat-Image :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -27.75, 1.87, 6.39, 1.57);
+Pirates :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -27.75, 1.87, 10.47, 1.57);
+Pirates-Image :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -27.75, 1.87, 13.53, 1.57);
+Boire :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -27.75, 1.74, 17.79, 1.57);
+Boire-Image :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -24.41, 1.81, 20.11, 3.14);
