@@ -309,7 +309,8 @@ addArtwork("Menu1.png", " ", " ", 31.1, 2.1, -23.95, 1.57);
 addArtwork("Menu2.png", " ", " ", 37.35, 2.01, -15.45, 1.57);
 // Aspirinthe
 addArtwork("Titre3.png", " ", " ", 31.62, 2.02, -18.07, 0.0);
-addArtwork("Contexte_aspirinthe.png", " ", " ", 19.85, 1.99, -20.17, 1.57);
+addArtwork("Plateau.png", " ", " ", 19.85, 3.33, -19.98, 1.57);
+addArtwork("Contexte_aspirinthe.png", " ", " ", 19.85, 1.71, -20.07, 1.57);
 addArtwork("Objectif.png", " ", " ", 19.85, 2.1, -23.49, 1.57);
 addArtwork("Credits_aspirinthe.png", " ", " ", 19.85, 2.03, -26.93, 1.57);
 addArtwork("Web_aspirinthe.png", " ", " ", 22.65, 2.14, -29.0, 0.0);

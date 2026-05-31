@@ -54,8 +54,10 @@ addArtwork('ton-image.jpg', 'Titre', 'Description...', 37.35, 2.01, -15.45, 1.57
 ## Aspirinthe
 Titre3 :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 31.62, 2.02, -18.07, 0.00);
+Plateau :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 19.85, 3.33, -19.98, 1.57);
 Contexte_aspirinthe :
-addArtwork('ton-image.jpg', 'Titre', 'Description...', 19.85, 1.98, -20.62, 1.57);
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 19.85, 1.71, -20.07, 1.57);
 Objectif :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', 19.85, 2.10, -23.49, 1.57);
 Credits_aspirinthe :
