@@ -142,3 +142,21 @@ Boire :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', -27.75, 1.74, 17.79, 1.57);
 Boire-Image :
 addArtwork('ton-image.jpg', 'Titre', 'Description...', -24.41, 1.81, 20.11, 3.14);
+
+## Dessin Traditionnel
+Titre8 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -20.19, 1.91, 11.60, -3.14);
+DessinTrad :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -17.14, 1.89, 11.60, -3.14);
+Img1 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -12.48, 1.88, 11.60, 0.44);
+Img2 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -8.10, 1.92, 14.82, 1.57);
+Img3 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -8.10, 1.91, 19.27, 1.57);
+Img4 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -2.94, 2.05, 23.28, -0.83);
+Img5 :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', 1.94, 2.00, 18.54, -1.57);
+Merci :
+addArtwork('ton-image.jpg', 'Titre', 'Description...', -4.62, 1.96, 7.28, 0.00);

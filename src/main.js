@@ -353,6 +353,15 @@ addArtwork("Pirates.png", " ", " ", -27.75, 1.87, 10.47, 1.57);
 addArtwork("Pirates-Image.png", " ", " ", -27.75, 1.87, 13.53, 1.57);
 addArtwork("Boire.png", " ", " ", -27.75, 1.74, 17.79, 1.57);
 addArtwork("Boire-Image.png", " ", " ", -24.41, 1.81, 20.11, 3.14);
+// Dessin traditionnel
+addArtwork("Titre8.png", " ", " ", -20.19, 1.91, 11.6, -3.14);
+addArtwork("DessinTrad.png", " ", " ", -17.14, 1.89, 11.6, -3.14);
+addArtwork("Img1.png", " ", "", -12.48, 1.88, 11.6, 0.44);
+addArtwork("Img2.png", " ", " ", -8.1, 1.92, 14.82, 1.57);
+addArtwork("Img3.png", " ", " ", -8.1, 1.91, 19.27, 1.57);
+addArtwork("Img4.png", " ", " ", -2.94, 2.05, 23.28, -0.83);
+addArtwork("Img5.png", " ", " ", 1.94, 2.0, 18.54, -1.57);
+addArtwork("Merci.png", " ", " ", -4.62, 1.96, 7.28, 0.0);
 // --- 7. LA BOUCLE DE NAVIGATION ET DE PHYSIQUE (Inchangée) ---
 const velocity = new THREE.Vector3();
 const direction = new THREE.Vector3();
